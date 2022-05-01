@@ -1,0 +1,64 @@
+.FindUserResultBox {
+  display: flex;
+  width: 275px;
+  height: 70px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+
+  .FindUserResultImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .FindUserResultName {
+    color: #000;
+    font-size: 17px;
+  }
+  .FindUserResultBtn {
+    box-sizing: border-box;
+    height: 30px;
+    width: 100px;
+    padding-top: 6px;
+    text-align: center;
+    color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+.FindUserInputBox {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  height: 30px;
+  box-sizing: border-box;
+
+  .FindUserInput {
+    text-align: center;
+    border: none;
+    outline: none;
+  }
+  button {
+    all: unset;
+    .FindUserInputIcon {
+      padding-top: 3px;
+      cursor: pointer;
+    }
+  }
+}
+
+.LogoutBtn {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #000;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    color: #999;
+  }
+}
