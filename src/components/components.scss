@@ -1,0 +1,32 @@
+// UserList Component
+
+.UserListBox {
+  display: flex;
+  width: 275px;
+  height: 70px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+
+  .UserListImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .UserListName {
+    color: #000;
+    font-size: 17px;
+  }
+  .AddFriendsBtn {
+    box-sizing: border-box;
+    height: 30px;
+    width: 100px;
+    padding-top: 6px;
+    text-align: center;
+    color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
