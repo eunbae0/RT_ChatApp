@@ -1,4 +1,4 @@
-# Firebase를 이용하여 간단하게 RealTime Chap App 만들기
+# 무작정 실시간 채팅앱 만들어보기
 
 <div align=center><h1>👨‍💻 Stacks</h1></div>
 <div align=center>
@@ -9,5 +9,3 @@
 <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white"> 
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </div>
-
-> React 환경설정 참고 - https://velog.io/@eamon3481/React-TypeScript-Webpack-Without-CRA
