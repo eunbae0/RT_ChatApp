@@ -10,7 +10,7 @@ export interface UserData {
   photoURL?: string;
 }
 
-const Router = () => {
+function Router() {
   const [isLogin, setIsLogin] = useState(false);
   const [isLoading, setIsLisLoading] = useState(true);
 
